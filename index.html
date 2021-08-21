@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess it game for the academy pillau</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- This is the entire body of the game -->
+    <div class="container">
+        <!-- This is the heading part -->
+        <h1>I have a number in my mind between 1 and 100. Can you guess it?</h1>
+
+        <!-- This contains the input box and the button -->
+        <div id="input-container">
+            <input type="number" placeholder="Enter your number" name="" id="number-input" min="1" max="100">
+            <button class="button" id="submit">Submit</button>
+            <h2 id="lives-text">
+                Lives:<span id="lives">10</span>
+            </h2>
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
